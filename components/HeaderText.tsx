@@ -17,7 +17,7 @@ export default function HeaderText() {
     return (
         <header className="flex justify-center h-screen items-center">
             <div className="flex flex-col items-center">
-                <h1 className="text-7xl font-bold">Kyle Thornton</h1>
+                <h1 className="text-7xl font-bold text-white">Kyle Thornton</h1>
                 <h2 className="text-4xl font-light pt-5">
                     <TextTransition springConfig={presets.wobbly}>{wordsToDescribeKyle[index % wordsToDescribeKyle.length]}</TextTransition>
                 </h2>
