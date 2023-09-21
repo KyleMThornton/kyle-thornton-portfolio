@@ -15,11 +15,11 @@ export default function HeaderText() {
 
 
     return (
-        <header className="flex justify-center h-screen items-center pb-36">
-            <div className="flex flex-col p-5">
-                <h1 className="text-4xl text-black pb-1"><TextTransition springConfig={presets.wobbly}>{wordsToDescribeKyle[index % wordsToDescribeKyle.length]}</TextTransition></h1>
+        <header className="flex justify-start h-screen items-center pl-36 pb-36">
+            <div className="flex flex-col p-5 w-4/5">
+                <h1 className="text-4xl text-black pb-1 flex flex-row"><TextTransition springConfig={presets.wobbly}>{wordsToDescribeKyle[index % wordsToDescribeKyle.length]}</TextTransition> 👋🏻</h1>
                 <h1 className="text-4xl text-black pb-2">I'm <span>Kyle Thornton</span>.</h1>
-                <h1 className="text-5xl font-bold text-black">A full stack web developer with a <span className="text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-red-800">passion for fashion.</span></h1>
+                <h1 className="text-6xl font-bold text-black">A full stack web developer with a <span className="text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-red-800">passion for fashion</span>.</h1>
             </div>
         </header>
     )
