@@ -7,7 +7,7 @@ export default function NavBar() {
         //     <h2 className="hover:underline">Contact</h2>
         // </div>
         <div className="flex justify-center sticky top-0">
-            <ul className="steps w-5/6 p-5 mt-10">
+            <ul className="steps w-5/6 p-5">
                 <li className="step">Home</li>
                 <li className="step">Projects</li>
                 <li className="step">About</li>

@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='min-h-screen bg-white'>
+    <html lang="en" className='min-h-screen bg-gradient-to-b from-slate-50 to-gray-300'>
       <body className={inter.className}>{children}</body>
     </html>
   )
