@@ -8,7 +8,7 @@ export default function HeaderText() {
     useEffect(() => {
         const intervalId = setInterval(
           () => setIndex((index) => index + 1),
-          2000, // every 4 seconds
+          4000, // every 4 seconds
         );
         return () => clearTimeout(intervalId);
     }, []);
