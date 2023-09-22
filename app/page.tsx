@@ -1,5 +1,6 @@
 "use client"
 
+import Footer from "@/components/Footer"
 import HeaderText from "@/components/HeaderText"
 import NavBar from "@/components/NavBar"
 import Projects from "@/components/Projects"
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <Projects />
       <Projects2 />
+      <Footer />
     </main>
   )
 }
