@@ -16,19 +16,19 @@ export default function NavBar() {
       // </div>
       <div className="navbar bg-base-100 sticky top-0 p-5">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">title</a>
+          <a className="btn btn-ghost normal-case text-xl">KT</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
               <details>
-                <summary>Parent</summary>
+                <summary>Navigate</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a>Link 1</a>
+                    <a>About</a>
                   </li>
                   <li>
-                    <a>Link 2</a>
+                    <a>Projects</a>
                   </li>
                 </ul>
               </details>
