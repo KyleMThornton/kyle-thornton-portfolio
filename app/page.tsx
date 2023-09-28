@@ -9,8 +9,8 @@ import Projects2 from "@/components/Projects2"
 export default function Home() {
   return (
     <main>
-      <HeaderText />
       <NavBar />
+      <HeaderText />
       <Projects />
       <Projects2 />
       <Footer />
