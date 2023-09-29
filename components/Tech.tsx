@@ -11,7 +11,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 export default function Tech() {
   return (
-    <div className="flex flex-col md:flex-row container justify-items-center p-4 pb-20">
+    <div className="flex flex-col md:flex-row container justify-items-center p-4">
       <h2 className="text-2xl md:text-3xl">My favorite tech:</h2>
       <div className="flex flex-row items-center">
         <TbBrandNextjs className="text-3xl mx-1" />
