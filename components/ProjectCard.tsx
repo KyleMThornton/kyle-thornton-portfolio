@@ -15,10 +15,10 @@ interface ProjectCardProps {
 export default function ProjectCard({ projectData }: ProjectCardProps) {
 
   return (
-    <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 p-4">
+    <div className="flex p-4 max-w-2xl">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img
-          className="w-full h-48 object-cover"
+          className="w-full h-96 object-cover"
           src={projectData.image}
           alt={projectData.title}
         />

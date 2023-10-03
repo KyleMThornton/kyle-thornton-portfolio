@@ -8,10 +8,18 @@ const midpointProjectData = {
 
 const justALittleRedditData = {
     title: "Just a Little Reddit",
-    description: "tbd",
+    description: "A reddit client that allows you to set a limit to the number of posts you see so you don't scroll all day.",
     tech: ["React", "Redux"],
-    image: "/images/midpoint_thumb.jpg",
+    image: "/images/reddit_thumb.jpg",
     link: "https://just-a-little-reddit.netlify.app/"
 }
 
-export {midpointProjectData, justALittleRedditData}
+const portfolioData = {
+    title: "Kyle Thornton Portfolio",
+    description: "The site you're on right now! A portfolio site built with NextJS and Tailwind CSS.",
+    tech: ["NextJS", "Tailwind CSS"],
+    image: "/images/portfolio_thumb.jpg",
+    link: ""
+}
+
+export {midpointProjectData, justALittleRedditData, portfolioData}
