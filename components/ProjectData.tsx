@@ -16,7 +16,7 @@ const justALittleRedditData = {
 
 const portfolioData = {
     title: "Kyle Thornton Portfolio",
-    description: "The site you're on right now! A portfolio site built with NextJS and Tailwind CSS.",
+    description: "The site you're on right now! A portfolio site built with NextJS and Tailwind CSS to display my work.",
     tech: ["NextJS", "Tailwind CSS"],
     image: "/images/portfolio_thumb.jpg",
     link: ""

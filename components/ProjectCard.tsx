@@ -15,7 +15,7 @@ interface ProjectCardProps {
 export default function ProjectCard({ projectData }: ProjectCardProps) {
 
   return (
-    <div className="flex p-4 max-w-2xl">
+    <div className="flex w-full">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img
           className="w-full h-96 object-cover"
