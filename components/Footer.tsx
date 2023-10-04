@@ -11,10 +11,10 @@ export default function Footer() {
       <aside className='flex'>
         <p>Made with ❤️ by Kyle Thornton</p>
         <p> | {year}</p>
-        <AiFillGithub className="text-xl hover:text-red-400" />
-        <AiFillLinkedin className="text-xl hover:text-red-400" />
-        <MdEmail className="text-xl hover:text-red-400" />
-        <HiDocumentText className="text-xl hover:text-red-400" />
+        <a href='https://github.com/KyleMThornton' target="_blank" rel="noopener noreferrer"><AiFillGithub className="text-xl hover:text-red-400" /></a>
+        <a href='https://www.linkedin.com/in/kyle-m-thornton/' target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="text-xl hover:text-red-400" /></a>
+        <a href="mailto:kylemthornton@gmail.com"><MdEmail className="text-xl hover:text-red-400" /></a>
+        <a href=''><HiDocumentText className="text-xl hover:text-red-400" /></a>
       </aside>
     </footer>
   );
