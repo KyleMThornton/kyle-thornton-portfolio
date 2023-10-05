@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { justALittleRedditData, midpointProjectData, portfolioData } from "./ProjectData";
+import { justALittleRedditData, midpointProjectData, portfolioData, toDoData } from "./ProjectData";
 
 export default function Projects() {
   return (
@@ -10,7 +10,7 @@ export default function Projects() {
         <ProjectCard projectData={midpointProjectData} />
         <ProjectCard projectData={justALittleRedditData} />
         <ProjectCard projectData={portfolioData} />
-        <ProjectCard projectData={justALittleRedditData} />
+        <ProjectCard projectData={toDoData} />
       </div>
     </div>
   );
