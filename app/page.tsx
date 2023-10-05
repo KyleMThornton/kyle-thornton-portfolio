@@ -5,10 +5,10 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <Header />
       <Projects />
       <Footer />
-    </main>
+    </div>
   );
 }
