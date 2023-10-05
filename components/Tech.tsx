@@ -8,7 +8,8 @@ import {
   SiNodedotjs,
   SiSupabase,
   SiPrisma,
-  SiSvelte
+  SiSvelte,
+  SiRedux
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { Tooltip } from 'react-tooltip';
@@ -38,6 +39,10 @@ export default function Tech() {
         <a className="tailwind"><SiTailwindcss className="text-3xl mx-1" /></a>
         <Tooltip anchorSelect=".tailwind" place="bottom">
             Tailwind CSS
+        </Tooltip>
+        <a className="redux"><SiRedux className="text-3xl mx-1" /></a>
+        <Tooltip anchorSelect=".redux" place="bottom">
+            Redux
         </Tooltip>
         <a className="node"><SiNodedotjs className="text-3xl mx-1" /></a>
         <Tooltip anchorSelect=".node" place="bottom">
