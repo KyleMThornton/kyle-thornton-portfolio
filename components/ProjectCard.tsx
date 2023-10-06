@@ -16,7 +16,7 @@ export default function ProjectCard({ projectData }: ProjectCardProps) {
 
   return (
     <div className="flex w-full group">
-      <div className="bg-zinc-100 dark:bg-zinc-800 shadow-lg rounded-lg overflow-hidden">
+      <div className="bg-white dark:bg-zinc-800 shadow-lg rounded-lg overflow-hidden">
         <a href={projectData.link} target="_blank" rel="noopener noreferrer"><img
           className="w-full h-96 object-cover group-hover:scale-105 group-hover:drop-shadow-sm transition-all duration-200 ease-in-out"
           src={projectData.image}
