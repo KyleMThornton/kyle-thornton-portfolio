@@ -21,7 +21,7 @@ export const ThemeSwitcher = () => {
 
   return (
     <label className="swap swap-rotate">
-      <input type="checkbox" onChange={() => setTheme(theme === "dark" ? "light" : "dark")} />
+      <input type="checkbox" onChange={() => setTheme(theme === "light" ? "dark" : "light")} />
       <svg
         className="swap-off fill-current w-9 h-9"
         xmlns="http://www.w3.org/2000/svg"
