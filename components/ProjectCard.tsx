@@ -18,7 +18,7 @@ export default function ProjectCard({ projectData }: ProjectCardProps) {
     <a href={projectData.link} target="_blank" rel="noopener noreferrer"><div className="flex w-full group">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img
-          className="w-full h-96 object-cover group-hover:scale-105"
+          className="w-full h-96 object-cover group-hover:scale-105 group-hover:drop-shadow-sm transition-all duration-200 ease-in-out"
           src={projectData.image}
           alt={projectData.title}
         />
