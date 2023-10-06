@@ -1,4 +1,4 @@
-export default function About() {
+export default function HeaderSub() {
   return (
     <div className="flex justify-start container p-4">
       <div className="flex flex-col md:w-4/5">
