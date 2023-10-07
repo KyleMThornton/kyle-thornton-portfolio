@@ -1,7 +1,6 @@
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import {MdEmail} from 'react-icons/md';
 import {HiDocumentText} from 'react-icons/hi';
-import { ThemeSwitcher } from './ThemeSwitcher';
 
 export default function Footer() {
   const date = new Date();
