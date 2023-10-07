@@ -1,4 +1,5 @@
 import { ThemeSwitcher } from "./ThemeSwitcher";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
@@ -8,7 +9,7 @@ export default function NavBar() {
         <div className="flex flex-row">
           <ul className="flex items-center justify-between space-x-4 pr-5">
             <li>
-              <a href="#projects" className="text-lg hover:underline hover:font-semibold">Projects</a>
+              <Link href="#projects" scroll={true} className="text-lg hover:underline hover:font-semibold">Projects</Link>
             </li>
             <li>
               <a href="mailto:kylemthornton@gmail.com" className="text-lg hover:underline hover:font-semibold">Contact</a>
