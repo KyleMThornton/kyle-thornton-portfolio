@@ -19,12 +19,14 @@ export const ThemeSwitcher = () => {
     return null;
   }
 
+  const handleClick = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  }
+
 
   return (
-    <label className="swap swap-rotate">
-      <input type="checkbox" onChange={() => setTheme(theme === "light" ? "dark" : "light")} />
-      <BiSun className="swap-on fill-current text-2xl" />
-      <BiMoon className="swap-off fill-current text-2xl" />
-    </label>
+    <div className="flex">
+      <button onClick={handleClick}>{theme === "light" ? <BiSun className="text-2xl" /> : <BiMoon className="text-2xl" />}</button>
+    </div>
   );
 };
