@@ -7,8 +7,9 @@ import { BiMoon, BiSun } from "react-icons/bi";
 
 export const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { systemTheme, theme, setTheme } = useTheme();
 
+  const currentTheme = theme === 'system' ? systemTheme : theme
 
   useEffect(() => {
     setMounted(true);
@@ -20,13 +21,13 @@ export const ThemeSwitcher = () => {
   }
 
   const handleClick = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(currentTheme === "light" ? "dark" : "light");
   }
 
 
   return (
     <div className="flex">
-      <button onClick={handleClick}>{theme === "light" ? <BiSun className="text-2xl" /> : <BiMoon className="text-2xl" />}</button>
+      <button onClick={handleClick}>{currentTheme === "light" ? <BiSun className="text-2xl" /> : <BiMoon className="text-2xl" />}</button>
     </div>
   );
 };
