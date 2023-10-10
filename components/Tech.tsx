@@ -56,10 +56,6 @@ export default function Tech() {
         <Tooltip anchorSelect=".supabase" place="bottom">
             Supabase
         </Tooltip>
-        <a className="prisma"><SiPrisma className="text-3xl mx-1" /></a>
-        <Tooltip anchorSelect=".prisma" place="bottom">
-            Prisma
-        </Tooltip>
       </div>
     </div>
   );
