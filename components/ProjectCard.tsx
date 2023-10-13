@@ -17,10 +17,12 @@ export default function ProjectCard({ projectData }: ProjectCardProps) {
   return (
     <div className="flex w-full group">
       <div className="bg-white dark:bg-zinc-800 shadow-lg rounded-lg overflow-hidden">
-        <a href={projectData.link} target="_blank" rel="noopener noreferrer"><img
-          className="w-full h-96 object-cover group-hover:scale-105 group-hover:drop-shadow-sm transition-all duration-200 ease-in-out"
+        <a href={projectData.link} target="_blank" rel="noopener noreferrer"><Image
+          className="w-full h-96 object-cover object-top group-hover:scale-105 group-hover:drop-shadow-sm transition-all duration-200 ease-in-out"
           src={projectData.image}
           alt={projectData.title}
+          width={1000}
+          height={1000}
         /></a>
         <div className="p-4">
           <a href={projectData.link} target="_blank" rel="noopener noreferrer">
