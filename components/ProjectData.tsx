@@ -26,7 +26,7 @@ const toDoData = {
     title: "To Do List",
     description: "A drag and drop to do list built using React and Typescript. Drag and drop functionality is provided by the dnd-kit library.",
     tech: ["React", "Typescript"],
-    image: "/images/todo_thumb.jpg",
+    image: "/images/toDo_thumb.jpg",
     link: "https://react-to-do-webapp.netlify.app/"
 }
 
