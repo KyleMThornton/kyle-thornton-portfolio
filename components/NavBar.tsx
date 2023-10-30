@@ -7,7 +7,7 @@ export default function NavBar() {
       <nav className="flex items-center justify-between">
         <a href=""><h1 className="text-3xl font-bold">&lt;KT /&gt;</h1></a>
         <div className="flex flex-row">
-          <ul className="flex items-center justify-between space-x-4 pr-5">
+          <ul className="flex items-center justify-between space-x-4 pr-2">
             <li>
               <Link href="#projects" scroll={true} className="text-lg hover:underline hover:font-semibold">Projects</Link>
             </li>
