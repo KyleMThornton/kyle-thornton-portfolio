@@ -17,7 +17,7 @@ export default function Footer() {
         <a href='https://github.com/KyleMThornton' target="_blank" rel="noopener noreferrer"><AiFillGithub className="text-xl hover:text-red-400" /></a>
         <a href='https://www.linkedin.com/in/kyle-m-thornton/' target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="text-xl hover:text-red-400" /></a>
         <a href="mailto:kylemthornton@gmail.com"><MdEmail className="text-xl hover:text-red-400" /></a>
-        <a href=''><HiDocumentText className="text-xl hover:text-red-400" /></a>
+        <a href='/files/KyleThorntonResume.pdf'><HiDocumentText className="text-xl hover:text-red-400" /></a>
       </aside>
     </footer>
   );
