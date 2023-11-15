@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="p-4 pb-20 container">
+    <div className="p-4 pb-10 md:pb-20 container">
       <nav className="flex items-center justify-between">
         <a href=""><h1 className="text-3xl font-bold">&lt;KT /&gt;</h1></a>
         <div className="flex flex-row">

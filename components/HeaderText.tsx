@@ -18,13 +18,13 @@ export default function HeaderText() {
   return (
     <header className="flex justify-start container p-4">
       <div className="flex flex-col md:w-4/5">
-        <h1 className="text-3xl md:text-4xl font-semibold pb-2 flex flex-row">
+        <h1 className="text-2xl md:text-4xl font-semibold md:pb-2 flex flex-row">
           <TextTransition springConfig={presets.wobbly}>
             {wordsToDescribeKyle[index % wordsToDescribeKyle.length]}
           </TextTransition>{" "}
           👋🏻
         </h1>
-        <h1 className="text-3xl md:text-4xl pb-3 font-semibold">
+        <h1 className="text-2xl md:text-4xl pb-3 font-semibold">
           I&apos;m <span>Kyle Thornton</span>
         </h1>
         <h1 className="text-5xl md:text-6xl font-bold">
