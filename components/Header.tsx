@@ -8,8 +8,10 @@ export default function Header() {
     <div className="min-h-screen sm:min-h-0 pb-36">
         <NavBar />
         <HeaderText />
-        <HeaderSub />
-        <Tech />
+        <div className="container flex-col">
+            <HeaderSub />
+            <Tech />
+        </div>
     </div>
     )
 }
