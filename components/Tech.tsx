@@ -17,8 +17,11 @@ import { Tooltip } from 'react-tooltip';
 
 export default function Tech() {
   return (
-    <div className="flex flex-col md:flex-row container justify-items-center p-4">
-      <h2 className="text-2xl md:text-3xl">My favorite tech:</h2>
+    <div className="flex flex-col container justify-items-center p-4">
+      <div className="flex flex-row items-center pb-2">
+        <h2 className="text-xl md:text-2xl">My favorite tech</h2>
+        <h3 className="font-light pl-5">Hover for more info</h3>
+      </div>
       <div className="flex flex-row items-center flex-wrap">
         <a className="react"><FaReact className="text-3xl mx-1" /></a>
         <Tooltip anchorSelect=".react" place="bottom">
