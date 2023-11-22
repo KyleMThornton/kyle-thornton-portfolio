@@ -1,5 +1,5 @@
 ## KyleThornton.dev
 
-A portfolio site create to show off my projects. Built using NextJS, Tpyescript, and TailwindCSS. Hosted on Vercel.
+A portfolio site created to show off my projects. Built using NextJS, TypeScript, and TailwindCSS.
 
 https://kylethornton.dev
