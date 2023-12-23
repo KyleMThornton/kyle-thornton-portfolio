@@ -19,7 +19,7 @@ const entertainmentDatabaseData = {
     description: "A website that displays info about movies, tv shows, and actors. Data supplied from the TMDB api.",
     tech: ["React", "NextJS", "Typescript", "Tailwind CSS"],
     image: "/images/movies_thumb.jpg",
-    link: "https://kylethornton.dev/"
+    link: "https://movies.kylethornton.dev/"
 }
 
 const toDoData = {
