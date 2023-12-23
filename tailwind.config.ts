@@ -13,6 +13,9 @@ const config: Config = {
     extend: {
       backgroundImage: {},
     },
+    borderWidth: {
+      1: "1px",
+    }
   },
   plugins: [require("daisyui")],
   darkMode: ["class", "[data-theme=dark]"],
