@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { justALittleRedditData, midpointProjectData, portfolioData, toDoData } from "./ProjectData";
+import { justALittleRedditData, midpointProjectData, entertainmentDatabaseData, toDoData } from "./ProjectData";
 
 export default function Projects() {
   return (
@@ -8,8 +8,8 @@ export default function Projects() {
       <h3 className="pb-5">A few of my recent projects.</h3>
       <div className="grid grid-cols-1 gap-8 md:gap-16 md:grid-cols-2">
         <ProjectCard projectData={midpointProjectData} />
+        <ProjectCard projectData={entertainmentDatabaseData} />
         <ProjectCard projectData={justALittleRedditData} />
-        <ProjectCard projectData={portfolioData} />
         <ProjectCard projectData={toDoData} />
       </div>
     </div>

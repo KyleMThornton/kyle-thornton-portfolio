@@ -14,11 +14,11 @@ const justALittleRedditData = {
     link: "https://just-a-little-reddit.kylethornton.dev/"
 }
 
-const portfolioData = {
-    title: "Kyle Thornton Portfolio",
-    description: "The site you're on right now! A portfolio site built with NextJS and Tailwind CSS to display my work.",
+const entertainmentDatabaseData = {
+    title: "The Entertainment Database",
+    description: "A website that displays info about movies, tv shows, and actors. Data supplied from the TMDB api.",
     tech: ["React", "NextJS", "Typescript", "Tailwind CSS"],
-    image: "/images/portfolio_thumb.jpg",
+    image: "/images/movies_thumb.jpg",
     link: "https://kylethornton.dev/"
 }
 
@@ -30,4 +30,4 @@ const toDoData = {
     link: "https://react-to-do-webapp.netlify.app/"
 }
 
-export {midpointProjectData, justALittleRedditData, portfolioData, toDoData}
+export {midpointProjectData, justALittleRedditData, entertainmentDatabaseData, toDoData}
