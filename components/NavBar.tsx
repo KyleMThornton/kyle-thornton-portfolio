@@ -5,9 +5,9 @@ export default function NavBar() {
   return (
     <div className="p-4 pb-10 md:pb-20 container">
       <nav className="flex items-center justify-between">
-        <a href=""><h1 className="text-3xl font-bold">&lt;KT /&gt;</h1></a>
+        <a href=""><h1 className="text-xl md:text-3xl font-bold">&lt;KT /&gt;</h1></a>
         <div className="flex flex-row">
-          <ul className="flex items-center justify-between space-x-4 pr-2 text-lg">
+          <ul className="flex items-center justify-between space-x-2 md:space-x-4 md:pr-2 text-md md:text-lg">
             <li>
               <Link href='/files/KyleThorntonResume.pdf' className="hover:underline hover:font-semibold">Resume</Link>
             </li>
