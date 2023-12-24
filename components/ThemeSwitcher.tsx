@@ -27,7 +27,7 @@ export const ThemeSwitcher = () => {
 
   return (
     <div className="flex">
-      <button className="btn btn-ghost" onClick={handleClick}>{currentTheme === "light" ? <BiSun className="text-2xl" /> : <BiMoon className="text-2xl" />}</button>
+      <button className="btn btn-ghost" onClick={handleClick}>{currentTheme === "light" ? <BiSun className="text-xl md:text-2xl" /> : <BiMoon className="text-xl md:text-2xl" />}</button>
     </div>
   );
 };
