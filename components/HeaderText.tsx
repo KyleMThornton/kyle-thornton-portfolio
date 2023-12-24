@@ -16,7 +16,7 @@ export default function HeaderText() {
   }, []);
 
   return (
-    <header className="flex justify-start container p-4">
+    <header className="flex justify-start container p-4 pt-10 md:pt-20">
       <div className="flex flex-col md:w-4/5">
         <h1 className="text-2xl md:text-4xl font-semibold md:pb-2 flex flex-row">
           <TextTransition springConfig={presets.wobbly}>

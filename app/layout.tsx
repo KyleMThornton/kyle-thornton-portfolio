@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers";
 import { Analytics } from '@vercel/analytics/react';
+import NavBar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} bg-zinc-100 dark:bg-zinc-950 text-zinc-950 dark:text-zinc-100`}>
         <Providers>
+          <NavBar />
           {children}
           <Analytics />
         </Providers>
