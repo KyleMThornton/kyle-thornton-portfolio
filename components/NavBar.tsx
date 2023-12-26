@@ -9,13 +9,13 @@ export default function NavBar() {
         <div className="flex flex-row">
           <ul className="flex items-center justify-between space-x-2 md:space-x-4 md:pr-2 text-md md:text-lg">
             <li>
-              <Link href='/files/KyleThorntonResume.pdf' className="hover:underline hover:font-semibold">Resume</Link>
+              <Link href='/files/KyleThorntonResume.pdf' className="underline-animation">Resume</Link>
             </li>
             <li>
-              <Link href="#projects" scroll={true} className="hover:underline hover:font-semibold">Projects</Link>
+              <Link href="#projects" scroll={true} className="underline-animation">Projects</Link>
             </li>
             <li>
-              <a href="mailto:kylemthornton@gmail.com" className="hover:underline hover:font-semibold">Contact</a>
+              <a href="mailto:kylemthornton@gmail.com" className="underline-animation">Contact</a>
             </li>
           </ul>
           <ThemeSwitcher />
