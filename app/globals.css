@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .underline-animation {
+      @apply relative inline-block;
+    }
+    .underline-animation:after {
+      @apply absolute inset-x-0 bottom-0 h-px bg-black transform scale-x-0;
+      content: "";
+      transition: transform 0.2s ease-in-out;
+    }
+    .underline-animation:hover:after {
+      @apply transform scale-x-100;
+    }
+  }
