@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
 export default function HeaderText() {
-  const wordsToDescribeKyle = ["Hello!", "¡Hola!", "Bonjour!", "Guten Tag!"];
+  const greetings = ["Hello!", "¡Hola!", "Bonjour!", "Guten Tag!"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -16,11 +16,11 @@ export default function HeaderText() {
   }, []);
 
   return (
-    <header className="flex justify-start container p-4">
+    <header className="flex justify-start container p-4 pt-36">
       <div className="flex flex-col md:w-4/5">
         <h1 className="text-2xl md:text-4xl font-semibold md:pb-2 flex flex-row">
-          <TextTransition springConfig={presets.wobbly}>
-            {wordsToDescribeKyle[index % wordsToDescribeKyle.length]}
+          <TextTransition springConfig={presets.slow}>
+            {greetings[index % greetings.length]}
           </TextTransition>{" "}
           👋🏻
         </h1>
@@ -28,11 +28,10 @@ export default function HeaderText() {
           I&apos;m <span>Kyle Thornton</span>
         </h1>
         <h1 className="text-5xl md:text-6xl font-bold">
-          A full stack web developer with a{" "}
+          A full-stack web developer with a{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-red-800">
             passion for creating
           </span>
-          
         </h1>
       </div>
     </header>
