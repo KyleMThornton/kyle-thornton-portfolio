@@ -1,20 +1,18 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { BiMoon, BiSun } from "react-icons/bi";
 
-
 export const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
 
-  const currentTheme = theme === 'system' ? systemTheme : theme
+  const currentTheme = theme === "system" ? systemTheme : theme;
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
 
   if (!mounted) {
     return null;
@@ -22,12 +20,17 @@ export const ThemeSwitcher = () => {
 
   const handleClick = () => {
     setTheme(currentTheme === "light" ? "dark" : "light");
-  }
-
+  };
 
   return (
     <div className="flex">
-      <button className="btn btn-ghost" onClick={handleClick}>{currentTheme === "light" ? <BiSun className="text-xl md:text-2xl" /> : <BiMoon className="text-xl md:text-2xl" />}</button>
+      <button className="btn btn-ghost" onClick={handleClick}>
+        {currentTheme === "light" ? (
+          <BiSun className="text-3xl md:text-2xl" />
+        ) : (
+          <BiMoon className="text-3xl md:text-2xl" />
+        )}
+      </button>
     </div>
   );
 };
