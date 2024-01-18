@@ -20,33 +20,35 @@ export default function NewNavBar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-lg dropdown-content mt-3 z-50 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-lg dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 z-50"
             >
-              <li className="z-50">
-                <a>Resume</a>
+              <li className="">
+                <Link href="/files/KyleThorntonResume.pdf">Resume</Link>
               </li>
-              <li className="z-50">
-                <a>Projects</a>
+              <li className="">
+                <Link href="#projects" scroll={true}>
+                  Projects
+                </Link>
               </li>
-              <li className="z-50">
-                <a>Contact</a>
+              <li className="">
+                <a href="mailto:kylemthornton@gmail.com">Contact</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl font-bold px-0 md:px-4">
-            &lt;KT /&gt;
-          </a>
+          <a className="text-3xl font-bold px-0 md:px-4">&lt;KT /&gt;</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg">
             <li>
-              <a>Resume</a>
+              <Link href="/files/KyleThorntonResume.pdf">Resume</Link>
             </li>
             <li>
-              <a>Projects</a>
+              <Link href="#projects" scroll={true}>
+                Projects
+              </Link>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="mailto:kylemthornton@gmail.com">Contact</a>
             </li>
           </ul>
         </div>
