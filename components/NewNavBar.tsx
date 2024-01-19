@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NewNavBar() {
   return (
     <div className="flex justify-center z-50">
-      <div className="navbar bg-zinc-100 dark:bg-zinc-950 md:p-0 mb-5 md:top-2 fixed rounded-xl transition-all ease-in-out duration-200 bg-opacity-100 z-50 container">
+      <div className="navbar bg-zinc-100 dark:bg-zinc-950 md:p-0 mb-5 md:pt-2 fixed rounded-xl transition-all ease-in-out duration-200 bg-opacity-100 z-50 container">
         <div className="navbar-start">
           <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
