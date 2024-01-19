@@ -1,10 +1,38 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { ThemeSwitcher } from "./ThemeSwitcher";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 export default function NewNavBar() {
+  const [navbarOpacity, setNavbarOpacity] = useState(0);
+  const { theme } = useTheme();
+  const isDark = theme === "dark";
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentOpacity = window.scrollY > 50 ? 1 : 0;
+      setNavbarOpacity(currentOpacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="flex justify-center z-50">
-      <div className="navbar bg-zinc-100 dark:bg-zinc-950 md:p-0 mb-5 md:pt-2 fixed rounded-xl transition-all ease-in-out duration-200 bg-opacity-100 z-50 container">
+      <div
+        className="navbar m-5 fixed rounded-xl transition-all ease-in-out duration-200 z-50 container"
+        style={{
+          backgroundColor: isDark
+            ? `rgba(44, 52, 58, ${navbarOpacity})` // Dark mode RGB values
+            : `rgba(228, 228, 231, ${navbarOpacity})`, // Light mode RGB values
+        }}
+      >
         <div className="navbar-start">
           <div className="dropdown z-50">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
