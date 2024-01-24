@@ -54,9 +54,20 @@ export default function NewNavBar() {
                 <Link href="/files/KyleThorntonResume.pdf">Resume</Link>
               </li>
               <li className="">
-                <Link href="#projects" scroll={true}>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.getElementById("projects");
+                    if (element) {
+                      window.scrollTo({
+                        top: element.offsetTop,
+                        behavior: "smooth",
+                      });
+                    }
+                  }}
+                >
                   Projects
-                </Link>
+                </a>
               </li>
               <li className="">
                 <a href="mailto:kylemthornton@gmail.com">Contact</a>
@@ -71,9 +82,20 @@ export default function NewNavBar() {
               <Link href="/files/KyleThorntonResume.pdf">Resume</Link>
             </li>
             <li>
-              <Link href="#projects" scroll={true}>
+              <a
+                onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById("projects");
+                  if (element) {
+                    window.scrollTo({
+                      top: element.offsetTop,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+              >
                 Projects
-              </Link>
+              </a>
             </li>
             <li>
               <a href="mailto:kylemthornton@gmail.com">Contact</a>
