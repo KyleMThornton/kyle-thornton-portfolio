@@ -5,6 +5,7 @@ const midpointProjectData = {
   tech: ["React", "NextJS", "Typescript", "Tailwind CSS"],
   image: "/images/midpoint_thumb.jpg",
   link: "https://midpoint.kylethornton.dev/",
+  github: "https://github.com/KyleMThornton/midpoint",
 };
 
 const justALittleRedditData = {
@@ -14,6 +15,7 @@ const justALittleRedditData = {
   tech: ["React", "Redux"],
   image: "/images/reddit_thumb.jpg",
   link: "https://just-a-little-reddit.kylethornton.dev/",
+  github: "https://github.com/KyleMThornton/Just-a-little-reddit",
 };
 
 const entertainmentDatabaseData = {
@@ -23,6 +25,7 @@ const entertainmentDatabaseData = {
   tech: ["React", "NextJS", "Typescript", "Tailwind CSS"],
   image: "/images/movies_thumb.jpg",
   link: "https://movies.kylethornton.dev/",
+  github: "https://github.com/KyleMThornton/movies",
 };
 
 const toDoData = {
@@ -32,6 +35,7 @@ const toDoData = {
   tech: ["React", "Typescript"],
   image: "/images/toDo_thumb.jpg",
   link: "https://react-to-do-webapp.netlify.app/",
+  github: "https://github.com/KyleMThornton/React-To-Do-List",
 };
 
 const budgetData = {
@@ -41,6 +45,7 @@ const budgetData = {
   tech: ["React", "Typescript", "Tailwind CSS"],
   image: "/images/budgetDashboard_thumb.jpg",
   link: "https://budget.kylethornton.dev/",
+  github: "https://github.com/KyleMThornton/budget-dashboard",
 };
 
 export {
