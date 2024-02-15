@@ -15,7 +15,10 @@ const config: Config = {
     },
     borderWidth: {
       1: "1px",
-    }
+    },
+    width: {
+      "88": "22rem",
+    },
   },
   plugins: [require("daisyui")],
   darkMode: ["class", "[data-theme=dark]"],
