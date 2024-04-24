@@ -78,9 +78,9 @@ export default function NewNavBar() {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-lg">
-            <li>
+            {/* <li>
               <Link href="/files/KyleThorntonResume.pdf">Resume</Link>
-            </li>
+            </li> */}
             <li>
               <a
                 onClick={(e) => {
